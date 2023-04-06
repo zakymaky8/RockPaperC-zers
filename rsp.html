@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="rsp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="player-container">
+            <img src="Images/person.jpg" alt="You,the player" id="you-logo">
+            <div id="player">you</div><br>
+            <figure class="fig-container">
+                <img src="Images/rock.jpg" alt="rock" id="rock">
+                <img src="Images/paper.jpg" alt="paper" id="paper">
+                <img src="Images/scissors.jpg" alt="scissors" id="scissors">
+            </figure><br>
+            <div id='msgone'></div>
+            <div id="player-score"></div><br>
+        </div>
+        <div class="computer-container">
+            <img src="Images/computer.jpg" alt="computer logo" id="computer">
+            <div id="computer-name">Computer</div><br>
+            <figure class="fig-container">
+                <img src="Images/rock.jpg" alt="rock" id="rock">
+                <img src="Images/paper.jpg" alt="paper" id="paper">
+                <img src="Images/scissors.jpg" alt="scissors" id="scissors">
+            </figure><br>
+            <div id="msgtwo"></div>
+            <div id="computer-score"></div><br>
+        </div>
+        <footer id="footer">By: Zekaryas Mekuaninit @ The Odin Project</footer>
+    </div>
+    <audio src="sounds/tink.wav" id="kick"></audio>
+    <audio src="sounds/Winning.mp3" id="winning"></audio>
+    <audio src="sounds/lose.mp3" id="losing"></audio>
+    <script src="rsp.js"></script>
+</body>
+</html>

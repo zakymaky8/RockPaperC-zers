@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+    background: #1f2f3f;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10vw
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px groove #eb0e33;
+    border-radius: 40px;
+    height: 45vw;
+    width: 50vw;
+    padding: 0vh 6vw 1vh 6vw;
+    background-color:rgb(127, 255, 0, 0.4);
+}
+#btn {
+    background: rgb(220, 20, 60);
+    width: 18vw;
+    height: 9vw;
+    align-self: center;
+    font-size: 5vw;
+    color: yellow;
+    border-radius: 20px;
+}
+#Welcome,#click {
+    align-self: center;
+    font-size: 3vw;
+    color: blue;
+}
+#rsp {
+    font-size: 8vw;
+}
+#rock {
+    color: rgb(255, 0, 0, 0.7)
+}
+#paper {
+    color:rgb(129, 255, 0, 0.7)
+}
+#scissors {
+    color:rgba(0, 4, 255, 0.9)
+}
+img {
+    width: 40vw;
+}
+#footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 2vw;
+}
