@@ -119,7 +119,7 @@ imageScissors.addEventListener('click', function() {
 })
 //reloading game by button
 butn.addEventListener('click',()=>{
-     document.location='rsp.html';
+     document.location='Index.html';
 })
 function revealScore() {
      playerMessage.innerHTML=`You: ${playMsg}`
