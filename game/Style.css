@@ -1,13 +1,13 @@
 body {
     box-sizing: border-box;
     background: #1f2f3f;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 8vh;
+    gap: 40px;
     justify-content: center;
 }
 .player-container,.computer-container {
@@ -17,29 +17,29 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: aquamarine;
-    padding: 4vw;
-    gap: 7vh;
+    padding: 20px;
+    gap: 30px;
 }
 #you-logo,#computer {
-    width: 17vw;
-    height: 17vw;
+    width: 130px;
+    height: 130px;
     border: red groove 3px;
     border-radius: 50px;
 }
 #rock,#paper,#scissors {
-    width: 15vw;
-    height: 15vw;
+    width: 100px;
+    height: 100px;
     border-radius: 30px;
     border: black groove 3px;
 }
 #player,#computer-name {
     font-weight: 700;
-    font-size: 5vw;
+    font-size: 38pt;
     font-style: italic;
-    color: rgb(0, 0, 255,0.5);
+    color: blue;
 }
 span,#player-score,#computer-score {
-    font-size: 7vw;
+    font-size: xx-large;
 }
 #footer {
     text-align: center;
